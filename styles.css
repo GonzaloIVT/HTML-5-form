@@ -1,0 +1,13 @@
+::after{
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:red;
+    width: 250px;
+    padding-left: 10px;
+    
+}
+
+input:focus:invalid ~ span::after{
+    content: "Some fields are missing";
+    
+}
